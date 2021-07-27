@@ -1,0 +1,56 @@
+/*font-family: 'Zen Tokyo Zoo', cursive;*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 500px;
+  display: grid;
+  place-items: center;
+  font-family: "Poiret One", cursive;
+  background-color: #000;
+}
+
+.color-time {
+  font-size: 2rem;
+  background: linear-gradient(to bottom, #f39c12, #f39c12);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.time-w {
+  position: relative;
+}
+
+#time {
+  text-shadow: 0 0 55px #f39d12af;
+  font-size: 200px;
+}
+
+#sec {
+  text-shadow: 0 0 55px #f39d12af;
+  font-size: 50px;
+}
+
+#md {
+  margin-left: 5px;
+  font-size: 50px;
+}
+
+#fecha {
+  font-size: 3rem;
+}
+
+.day-w {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day-w span {
+  font-size: 2rem;
+  opacity: 0.4;
+  font-weight: 600;
+  margin: 3px;
+}
